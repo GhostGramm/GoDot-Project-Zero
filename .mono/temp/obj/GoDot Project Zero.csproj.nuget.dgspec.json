@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\GHOST\\Documents\\GoDot Project Zero\\GoDot Project Zero.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\GHOST\\Documents\\GoDot Project Zero\\GoDot Project Zero.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GHOST\\Documents\\GoDot Project Zero\\GoDot Project Zero.csproj",
+        "projectName": "GoDot Project Zero",
+        "projectPath": "C:\\Users\\GHOST\\Documents\\GoDot Project Zero\\GoDot Project Zero.csproj",
+        "packagesPath": "C:\\Users\\GHOST\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GHOST\\Documents\\GoDot Project Zero\\.mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\GHOST\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

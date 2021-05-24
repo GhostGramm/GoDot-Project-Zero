@@ -1,0 +1,8 @@
+C:\Users\GHOST\Documents\GoDot Project Zero\.mono\temp\obj\Debug\GoDot Project Zero.csprojAssemblyReference.cache
+C:\Users\GHOST\Documents\GoDot Project Zero\.mono\temp\obj\Debug\GoDot Project Zero.csproj.CoreCompileInputs.cache
+C:\Users\GHOST\Documents\GoDot Project Zero\.mono\temp\obj\Debug\GoDot Project Zero.AssemblyInfoInputs.cache
+C:\Users\GHOST\Documents\GoDot Project Zero\.mono\temp\obj\Debug\GoDot Project Zero.AssemblyInfo.cs
+C:\Users\GHOST\Documents\GoDot Project Zero\.mono\temp\bin\Debug\GoDot Project Zero.dll
+C:\Users\GHOST\Documents\GoDot Project Zero\.mono\temp\bin\Debug\GoDot Project Zero.pdb
+C:\Users\GHOST\Documents\GoDot Project Zero\.mono\temp\obj\Debug\GoDot Project Zero.dll
+C:\Users\GHOST\Documents\GoDot Project Zero\.mono\temp\obj\Debug\GoDot Project Zero.pdb

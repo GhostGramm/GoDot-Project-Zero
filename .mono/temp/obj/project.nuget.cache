@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ur5Ak46sXAt6E5TAYEARu3fVR1XNEXctmONOZNmGagVAHBMCTx4RGio3UWBswBC2gd97wBt0XHSRsUbbzjQcfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\GHOST\\Documents\\GoDot Project Zero\\GoDot Project Zero.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GHOST\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\GHOST\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.0\\microsoft.netframework.referenceassemblies.net472.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
