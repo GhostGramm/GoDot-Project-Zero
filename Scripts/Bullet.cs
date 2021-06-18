@@ -31,6 +31,11 @@ public class Bullet : Area2D
         GD.Print("test working");
         if(body.IsInGroup("Enemy")){
             body.QueueFree();
+            DestroyBullet();
+        }
+        else if (body.IsInGroup("Obstacle"))
+        {
+            DestroyBullet();
         }
     }
 

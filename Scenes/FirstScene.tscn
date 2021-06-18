@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Art/ship.png" type="Texture" id=1]
 [ext_resource path="res://Scripts/Player.cs" type="Script" id=2]
 [ext_resource path="res://Art/icon.png" type="Texture" id=3]
+[ext_resource path="res://Scripts/Enemy.cs" type="Script" id=4]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 5.77704
@@ -35,6 +36,7 @@ shape = SubResource( 1 )
 "Enemy",
 ]]
 position = Vector2( 408.881, 96.9903 )
+script = ExtResource( 4 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -46,47 +48,4 @@ texture = ExtResource( 3 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy"]
 shape = SubResource( 2 )
 
-[node name="Enemy2" type="StaticBody2D" parent="." groups=[
-"Enemy",
-]]
-position = Vector2( 227.452, 124.079 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Sprite" type="Sprite" parent="Enemy2"]
-scale = Vector2( 0.554551, 0.554551 )
-texture = ExtResource( 3 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy2"]
-shape = SubResource( 2 )
-
-[node name="Enemy3" type="StaticBody2D" parent="." groups=[
-"Enemy",
-]]
-position = Vector2( 444.789, 188.335 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Sprite" type="Sprite" parent="Enemy3"]
-scale = Vector2( 0.554551, 0.554551 )
-texture = ExtResource( 3 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy3"]
-shape = SubResource( 2 )
-
-[node name="Enemy4" type="StaticBody2D" parent="." groups=[
-"Enemy",
-]]
-position = Vector2( 310.607, 64.8623 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Sprite" type="Sprite" parent="Enemy4"]
-scale = Vector2( 0.554551, 0.554551 )
-texture = ExtResource( 3 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy4"]
-shape = SubResource( 2 )
+[node name="Timer" type="Timer" parent="Enemy"]

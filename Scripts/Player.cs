@@ -3,7 +3,7 @@ using System;
 
 public class Player : KinematicBody2D
 {
-    
+    public static Vector2 pstion;
     public override void _Ready()
     {
         //getting the child of the node
@@ -17,6 +17,7 @@ public class Player : KinematicBody2D
         var speed = 50;
         var BulletDisFromPlayer = 20;
         var direction = (GetGlobalMousePosition() - this.Position).Normalized();
+        pstion = this.Position;
 
         this.Rotation = direction.Angle();
 
