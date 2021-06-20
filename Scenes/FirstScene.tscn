@@ -13,7 +13,9 @@ extents = Vector2( 16.674, 16.9817 )
 
 [node name="World" type="Node2D"]
 
-[node name="Player" type="KinematicBody2D" parent="."]
+[node name="Player" type="KinematicBody2D" parent="." groups=[
+"Player",
+]]
 position = Vector2( 296.523, 185.444 )
 script = ExtResource( 2 )
 

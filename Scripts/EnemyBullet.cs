@@ -7,6 +7,9 @@ public class EnemyBullet : Area2D
     public const int Speed = 100;
     public override void _Ready()
     {
+        Area2D area = GetNode<Area2D>(".");
+        area.Connect("body_entered",this,"DestroyPlayer");
+
         Timer timer = GetNode<Timer>("Timer");
         timer.WaitTime = 5f;
         timer.Connect("timeout",this,"DestroyBullet");
@@ -21,6 +24,23 @@ public class EnemyBullet : Area2D
     public void DestroyBullet()
     {
         this.QueueFree();
+    }
+
+    public void DestroyPlayer(Node body)
+    {
+        if(body.IsInGroup("Player"))
+        {
+            body.QueueFree();
+            GetTree().ReloadCurrentScene();
+        }
+        else if(body.IsInGroup("Obstacle"))
+        {
+            DestroyBullet();
+        }
+        else if(body.IsInGroup("Enemy"))
+        {
+            DestroyBullet();
+        }
     }
 
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.
